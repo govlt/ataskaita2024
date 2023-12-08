@@ -2,11 +2,11 @@ import {AwesomeButton} from 'react-awesome-button';
 import styles from './styles/themes/theme-gray';
 
 
-interface ButtonProps {
+interface BigButtonProps {
     title: string;
     onClick?: () => void;
 }
-const Button: React.FC<ButtonProps> = ({ title, onClick }) =>{
+const BigButton: React.FC<BigButtonProps> = ({ title, onClick }) =>{
     return (
         <AwesomeButton
             onPress={onClick}
@@ -19,4 +19,4 @@ const Button: React.FC<ButtonProps> = ({ title, onClick }) =>{
 }
 
 
-export default Button;
+export default BigButton;
